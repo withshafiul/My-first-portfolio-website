@@ -143,11 +143,63 @@ main section{
     gap: 20px;
 
 }
+.skill-section{
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
 .skill{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06) ;
 }
-.skill-section{
+
+/* A summary of My Resume */
+.resume{
     max-width: 1400px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume-container{
+    display: flex;
+    gap: 2rem;
+}
+.section-title{
+    text-align: center;
+}
+
+/* downlod button */
+.downlod_btn{
+    background: #FD6E0A;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 10px;
+    margin: 1.5rem;
+
+
+}
+/* Footer section */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colmn{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer input[type="area"]{
+    height:65px;
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 1) ;
+    display:block;
+    width: 100%;
+    padding:10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16;
 }
