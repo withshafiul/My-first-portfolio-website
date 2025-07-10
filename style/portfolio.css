@@ -1,0 +1,153 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-style{
+    color: #FD6E0A;
+}
+.hireme-style{
+    background-color: #FD6E0A;
+    color:white;
+    border-radius:5px ;
+    font-weight: bolder ;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+
+
+
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+}
+
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li {
+    list-style: none;
+   
+
+
+    
+
+}
+nav li a {
+    text-decoration: none;
+    margin-left: 55px;
+}
+.dark-2{
+    color: #474747;
+    
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+/* banner style    */
+.banner-greatings{
+    font-size:45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-picture{
+    width: 580px;
+    height: auto;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+
+}
+.banner-content{
+    max-width:580px ;
+}
+/* main "about" */
+
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.section-descripetion{
+    color: #757575;
+    font-size: 18px;
+
+}
+/* main  */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* items */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-drescripction{
+    font-weight: bolder;
+}
+.text-center{
+    text-align: center;
+}
+
+/* skill-technology */
+.skill-technology{
+    display: flex;
+    gap: 20px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06) ;
+}
+.skill-section{
+    max-width: 1400px;
+}
